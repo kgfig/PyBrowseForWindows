@@ -1,0 +1,1342 @@
+[14/Aug/2018:13:09:15] ENGINE Bus STARTING
+[14/Aug/2018:13:09:15] ENGINE Set handler for console events.
+[14/Aug/2018:13:09:15] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:13:09:20] ENGINE Error in background task thread function <bound method Autoreloader.run of <cherrypy.process.plugins.Autoreloader object at 0x0408A3B0>>.
+Traceback (most recent call last):
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\process\plugins.py", line 518, in run
+    self.function(*self.args, **self.kwargs)
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\process\plugins.py", line 667, in run
+    for filename in self.sysfiles() | self.files:
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\process\plugins.py", line 632, in sysfiles
+    return set(filter(None, map(self._file_for_module, mods)))
+RuntimeError: dictionary changed size during iteration
+
+[14/Aug/2018:13:09:21] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:13:09:21] ENGINE Bus STARTED
+[14/Aug/2018:13:09:24] ENGINE Console event 0: shutting down bus
+[14/Aug/2018:13:09:24] ENGINE Removed handler for console events.
+[14/Aug/2018:13:09:24] ENGINE Bus STOPPING
+[14/Aug/2018:13:09:24] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:13:09:24] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:13:09:24] ENGINE Handler for console events already off.
+[14/Aug/2018:13:09:24] ENGINE Bus STOPPED
+[14/Aug/2018:13:09:24] ENGINE Bus EXITING
+[14/Aug/2018:13:09:24] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:13:09:24] ENGINE Bus EXITED
+[14/Aug/2018:13:09:36] ENGINE Bus STARTING
+[14/Aug/2018:13:09:36] ENGINE Set handler for console events.
+[14/Aug/2018:13:09:36] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:13:09:36] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:13:09:36] ENGINE Bus STARTED
+[14/Aug/2018:13:10:32] ENGINE Console event 0: shutting down bus
+[14/Aug/2018:13:10:32] ENGINE Removed handler for console events.
+[14/Aug/2018:13:10:32] ENGINE Bus STOPPING
+[14/Aug/2018:13:10:32] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:13:10:32] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:13:10:32] ENGINE Handler for console events already off.
+[14/Aug/2018:13:10:32] ENGINE Bus STOPPED
+[14/Aug/2018:13:10:32] ENGINE Bus EXITING
+[14/Aug/2018:13:10:32] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:13:10:32] ENGINE Bus EXITED
+[14/Aug/2018:13:10:32] ENGINE Console event 0: shutting down bus
+[14/Aug/2018:13:10:32] ENGINE Handler for console events already off.
+[14/Aug/2018:13:10:32] ENGINE Bus STOPPING
+[14/Aug/2018:13:10:32] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) already shut down
+[14/Aug/2018:13:10:32] ENGINE No thread running for None.
+[14/Aug/2018:13:10:32] ENGINE Handler for console events already off.
+[14/Aug/2018:13:10:32] ENGINE Bus STOPPED
+[14/Aug/2018:13:10:32] ENGINE Bus EXITING
+[14/Aug/2018:13:10:32] ENGINE Bus EXITED
+[14/Aug/2018:13:10:35] ENGINE Console event 0: shutting down bus
+[14/Aug/2018:13:10:35] ENGINE Handler for console events already off.
+[14/Aug/2018:13:10:35] ENGINE Bus STOPPING
+[14/Aug/2018:13:10:35] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) already shut down
+[14/Aug/2018:13:10:35] ENGINE No thread running for None.
+[14/Aug/2018:13:10:35] ENGINE Handler for console events already off.
+[14/Aug/2018:13:10:35] ENGINE Bus STOPPED
+[14/Aug/2018:13:10:35] ENGINE Bus EXITING
+[14/Aug/2018:13:10:35] ENGINE Bus EXITED
+[14/Aug/2018:13:10:36] ENGINE Console event 0: shutting down bus
+[14/Aug/2018:13:10:36] ENGINE Handler for console events already off.
+[14/Aug/2018:13:10:36] ENGINE Bus STOPPING
+[14/Aug/2018:13:10:36] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) already shut down
+[14/Aug/2018:13:10:36] ENGINE No thread running for None.
+[14/Aug/2018:13:10:36] ENGINE Handler for console events already off.
+[14/Aug/2018:13:10:36] ENGINE Bus STOPPED
+[14/Aug/2018:13:10:36] ENGINE Bus EXITING
+[14/Aug/2018:13:10:36] ENGINE Bus EXITED
+[14/Aug/2018:13:10:36] ENGINE Console event 0: shutting down bus
+[14/Aug/2018:13:10:36] ENGINE Handler for console events already off.
+[14/Aug/2018:13:10:36] ENGINE Bus STOPPING
+[14/Aug/2018:13:10:36] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) already shut down
+[14/Aug/2018:13:10:36] ENGINE No thread running for None.
+[14/Aug/2018:13:10:36] ENGINE Handler for console events already off.
+[14/Aug/2018:13:10:36] ENGINE Bus STOPPED
+[14/Aug/2018:13:10:36] ENGINE Bus EXITING
+[14/Aug/2018:13:10:36] ENGINE Bus EXITED
+[14/Aug/2018:13:10:41] ENGINE Bus STARTING
+[14/Aug/2018:13:10:41] ENGINE Set handler for console events.
+[14/Aug/2018:13:10:41] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:13:10:41] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:13:10:41] ENGINE Bus STARTED
+[14/Aug/2018:13:11:03] ENGINE Restarting because C:\Users\T4\Documents\DjangProjects\PyBrowse\main.py changed.
+[14/Aug/2018:13:11:03] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:13:11:03] ENGINE Bus STOPPING
+[14/Aug/2018:13:11:04] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:13:11:04] ENGINE Removed handler for console events.
+[14/Aug/2018:13:11:04] ENGINE Bus STOPPED
+[14/Aug/2018:13:11:04] ENGINE Bus EXITING
+[14/Aug/2018:13:11:04] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:13:11:04] ENGINE Bus EXITED
+[14/Aug/2018:13:11:04] ENGINE Re-spawning C:\Users\T4\Envs\PyBrowse\Scripts\python.exe main.py
+[14/Aug/2018:13:11:04] ENGINE Bus STARTING
+[14/Aug/2018:13:11:04] ENGINE Set handler for console events.
+[14/Aug/2018:13:11:04] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:13:11:05] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:13:11:05] ENGINE Bus STARTED
+[14/Aug/2018:13:11:20] ENGINE Restarting because C:\Users\T4\Documents\DjangProjects\PyBrowse\main.py changed.
+[14/Aug/2018:13:11:20] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:13:11:20] ENGINE Bus STOPPING
+[14/Aug/2018:13:11:20] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:13:11:20] ENGINE Removed handler for console events.
+[14/Aug/2018:13:11:20] ENGINE Bus STOPPED
+[14/Aug/2018:13:11:20] ENGINE Bus EXITING
+[14/Aug/2018:13:11:20] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:13:11:20] ENGINE Bus EXITED
+[14/Aug/2018:13:11:20] ENGINE Re-spawning C:\Users\T4\Envs\PyBrowse\Scripts\python.exe main.py
+[14/Aug/2018:13:11:21] ENGINE Bus STARTING
+[14/Aug/2018:13:11:21] ENGINE Set handler for console events.
+[14/Aug/2018:13:11:21] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:13:11:21] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:13:11:21] ENGINE Bus STARTED
+[14/Aug/2018:13:15:50] ENGINE Restarting because C:\Users\T4\Documents\DjangProjects\PyBrowse\main.py changed.
+[14/Aug/2018:13:15:50] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:13:15:50] ENGINE Bus STOPPING
+[14/Aug/2018:13:15:50] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:13:15:50] ENGINE Removed handler for console events.
+[14/Aug/2018:13:15:50] ENGINE Bus STOPPED
+[14/Aug/2018:13:15:50] ENGINE Bus EXITING
+[14/Aug/2018:13:15:50] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:13:15:50] ENGINE Bus EXITED
+[14/Aug/2018:13:15:50] ENGINE Re-spawning C:\Users\T4\Envs\PyBrowse\Scripts\python.exe main.py
+[14/Aug/2018:13:15:50] ENGINE Bus STARTING
+[14/Aug/2018:13:15:50] ENGINE Set handler for console events.
+[14/Aug/2018:13:15:51] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:13:15:51] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:13:15:51] ENGINE Bus STARTED
+[14/Aug/2018:13:16:38] ENGINE Restarting because C:\Users\T4\Documents\DjangProjects\PyBrowse\main.py changed.
+[14/Aug/2018:13:16:38] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:13:16:38] ENGINE Bus STOPPING
+[14/Aug/2018:13:16:38] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:13:16:38] ENGINE Removed handler for console events.
+[14/Aug/2018:13:16:38] ENGINE Bus STOPPED
+[14/Aug/2018:13:16:38] ENGINE Bus EXITING
+[14/Aug/2018:13:16:38] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:13:16:38] ENGINE Bus EXITED
+[14/Aug/2018:13:16:38] ENGINE Re-spawning C:\Users\T4\Envs\PyBrowse\Scripts\python.exe main.py
+[14/Aug/2018:13:16:39] ENGINE Bus STARTING
+[14/Aug/2018:13:16:39] ENGINE Set handler for console events.
+[14/Aug/2018:13:16:39] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:13:16:39] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:13:16:39] ENGINE Bus STARTED
+[14/Aug/2018:13:16:46] ENGINE Bus STOPPING
+[14/Aug/2018:13:16:46] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:13:16:46] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:13:16:46] ENGINE Removed handler for console events.
+[14/Aug/2018:13:16:46] ENGINE Bus STOPPED
+[14/Aug/2018:13:16:46] ENGINE Bus EXITING
+[14/Aug/2018:13:16:46] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:13:16:46] ENGINE Bus EXITED
+[14/Aug/2018:13:19:22] ENGINE Bus STARTING
+[14/Aug/2018:13:19:22] ENGINE Set handler for console events.
+[14/Aug/2018:13:19:22] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:13:19:23] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:13:19:23] ENGINE Bus STARTED
+[14/Aug/2018:13:19:33] ENGINE Bus STOPPING
+[14/Aug/2018:13:19:34] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:13:19:34] ENGINE Removed handler for console events.
+[14/Aug/2018:13:19:34] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:13:19:34] ENGINE Bus STOPPED
+[14/Aug/2018:13:19:34] ENGINE Bus EXITING
+[14/Aug/2018:13:19:34] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:13:19:34] ENGINE Bus EXITED
+[14/Aug/2018:13:20:12] ENGINE Bus STARTING
+[14/Aug/2018:13:20:12] ENGINE Set handler for console events.
+[14/Aug/2018:13:20:12] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:13:20:12] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:13:20:12] ENGINE Bus STARTED
+[14/Aug/2018:13:20:23] ENGINE Bus STOPPING
+[14/Aug/2018:13:20:27] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:13:20:27] ENGINE Removed handler for console events.
+[14/Aug/2018:13:20:27] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:13:20:27] ENGINE Bus STOPPED
+[14/Aug/2018:13:20:27] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:13:20:27] ENGINE Bus EXITING
+[14/Aug/2018:13:20:27] ENGINE Bus EXITED
+[14/Aug/2018:13:21:12] ENGINE Bus STARTING
+[14/Aug/2018:13:21:12] ENGINE Set handler for console events.
+[14/Aug/2018:13:21:12] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:13:21:12] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:13:21:12] ENGINE Bus STARTED
+[14/Aug/2018:13:21:24] ENGINE Bus STOPPING
+[14/Aug/2018:13:21:26] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:13:21:26] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:13:21:26] ENGINE Removed handler for console events.
+[14/Aug/2018:13:21:26] ENGINE Bus STOPPED
+[14/Aug/2018:13:21:26] ENGINE Bus EXITING
+[14/Aug/2018:13:21:26] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:13:21:26] ENGINE Bus EXITED
+[14/Aug/2018:13:21:41] ENGINE Bus STARTING
+[14/Aug/2018:13:21:41] ENGINE Set handler for console events.
+[14/Aug/2018:13:21:41] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:13:21:41] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:13:21:41] ENGINE Bus STARTED
+[14/Aug/2018:13:22:09] ENGINE Bus STOPPING
+[14/Aug/2018:13:22:09] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:13:22:09] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:13:22:09] ENGINE Removed handler for console events.
+[14/Aug/2018:13:22:09] ENGINE Bus STOPPED
+[14/Aug/2018:13:22:09] ENGINE Bus EXITING
+[14/Aug/2018:13:22:09] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:13:22:09] ENGINE Bus EXITED
+[14/Aug/2018:13:22:20] ENGINE Bus STARTING
+[14/Aug/2018:13:22:20] ENGINE Set handler for console events.
+[14/Aug/2018:13:22:20] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:13:22:20] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:13:22:20] ENGINE Bus STARTED
+[14/Aug/2018:13:22:29] ENGINE Bus STOPPING
+[14/Aug/2018:13:22:35] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:13:22:35] ENGINE Removed handler for console events.
+[14/Aug/2018:13:22:35] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:13:22:35] ENGINE Bus STOPPED
+[14/Aug/2018:13:22:35] ENGINE Bus EXITING
+[14/Aug/2018:13:22:35] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:13:22:35] ENGINE Bus EXITED
+[14/Aug/2018:13:35:39] ENGINE Bus STARTING
+[14/Aug/2018:13:35:39] ENGINE Set handler for console events.
+[14/Aug/2018:13:35:39] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:13:35:39] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:13:35:39] ENGINE Bus STARTED
+[14/Aug/2018:13:35:55] ENGINE Bus STOPPING
+[14/Aug/2018:13:35:55] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:13:35:55] ENGINE Removed handler for console events.
+[14/Aug/2018:13:35:55] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:13:35:55] ENGINE Bus STOPPED
+[14/Aug/2018:13:35:55] ENGINE Bus EXITING
+[14/Aug/2018:13:35:55] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:13:35:55] ENGINE Bus EXITED
+[14/Aug/2018:13:36:11] ENGINE Bus STARTING
+[14/Aug/2018:13:36:11] ENGINE Set handler for console events.
+[14/Aug/2018:13:36:11] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:13:36:11] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:13:36:11] ENGINE Bus STARTED
+[14/Aug/2018:13:36:19] ENGINE Bus STOPPING
+[14/Aug/2018:13:36:22] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:13:36:22] ENGINE Removed handler for console events.
+[14/Aug/2018:13:36:22] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:13:36:22] ENGINE Bus STOPPED
+[14/Aug/2018:13:36:22] ENGINE Bus EXITING
+[14/Aug/2018:13:36:22] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:13:36:22] ENGINE Bus EXITED
+[14/Aug/2018:13:36:43] ENGINE Bus STARTING
+[14/Aug/2018:13:36:43] ENGINE Set handler for console events.
+[14/Aug/2018:13:36:43] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:13:36:44] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:13:36:44] ENGINE Bus STARTED
+[14/Aug/2018:13:36:51] ENGINE Bus STOPPING
+[14/Aug/2018:13:36:55] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:13:37:37] ENGINE Removed handler for console events.
+[14/Aug/2018:13:37:37] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:13:37:37] ENGINE Bus STOPPED
+[14/Aug/2018:13:37:37] ENGINE Bus EXITING
+[14/Aug/2018:13:37:37] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:13:37:37] ENGINE Bus EXITED
+[14/Aug/2018:13:37:39] ENGINE Bus STARTING
+[14/Aug/2018:13:37:39] ENGINE Set handler for console events.
+[14/Aug/2018:13:37:39] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:13:37:39] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:13:37:39] ENGINE Bus STARTED
+[14/Aug/2018:13:37:48] ENGINE Bus STOPPING
+[14/Aug/2018:13:37:51] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:13:37:51] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:13:37:51] ENGINE Removed handler for console events.
+[14/Aug/2018:13:37:51] ENGINE Bus STOPPED
+[14/Aug/2018:13:37:51] ENGINE Bus EXITING
+[14/Aug/2018:13:37:51] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:13:37:51] ENGINE Bus EXITED
+[14/Aug/2018:13:39:22] ENGINE Bus STARTING
+[14/Aug/2018:13:39:22] ENGINE Set handler for console events.
+[14/Aug/2018:13:39:22] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:13:39:22] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:13:39:22] ENGINE Bus STARTED
+[14/Aug/2018:13:39:32] ENGINE Bus STOPPING
+[14/Aug/2018:13:39:34] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:13:39:34] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:13:39:34] ENGINE Removed handler for console events.
+[14/Aug/2018:13:39:34] ENGINE Bus STOPPED
+[14/Aug/2018:13:39:34] ENGINE Bus EXITING
+[14/Aug/2018:13:39:34] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:13:39:34] ENGINE Bus EXITED
+[14/Aug/2018:13:43:36] ENGINE Bus STARTING
+[14/Aug/2018:13:43:36] ENGINE Set handler for console events.
+[14/Aug/2018:13:43:36] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:13:43:36] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:13:43:36] ENGINE Bus STARTED
+[14/Aug/2018:13:43:44] ENGINE Bus STOPPING
+[14/Aug/2018:13:43:47] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:13:43:47] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:13:43:47] ENGINE Removed handler for console events.
+[14/Aug/2018:13:43:47] ENGINE Bus STOPPED
+[14/Aug/2018:13:43:47] ENGINE Bus EXITING
+[14/Aug/2018:13:43:47] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:13:43:47] ENGINE Bus EXITED
+[14/Aug/2018:13:44:40] ENGINE Bus STARTING
+[14/Aug/2018:13:44:40] ENGINE Set handler for console events.
+[14/Aug/2018:13:44:40] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:13:44:40] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:13:44:40] ENGINE Bus STARTED
+[14/Aug/2018:13:44:49] ENGINE Console event 0: shutting down bus
+[14/Aug/2018:13:44:49] ENGINE Removed handler for console events.
+[14/Aug/2018:13:44:49] ENGINE Bus STOPPING
+[14/Aug/2018:13:44:51] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:13:44:51] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:13:44:51] ENGINE Handler for console events already off.
+[14/Aug/2018:13:44:51] ENGINE Bus STOPPED
+[14/Aug/2018:13:44:51] ENGINE Bus EXITING
+[14/Aug/2018:13:44:51] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:13:44:51] ENGINE Bus EXITED
+[14/Aug/2018:13:45:00] ENGINE Bus STARTING
+[14/Aug/2018:13:45:00] ENGINE Set handler for console events.
+[14/Aug/2018:13:45:00] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:13:45:00] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:13:45:00] ENGINE Bus STARTED
+[14/Aug/2018:13:45:08] ENGINE Bus STOPPING
+[14/Aug/2018:13:45:11] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:13:45:11] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:13:45:11] ENGINE Removed handler for console events.
+[14/Aug/2018:13:45:11] ENGINE Bus STOPPED
+[14/Aug/2018:13:45:11] ENGINE Bus EXITING
+[14/Aug/2018:13:45:11] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:13:45:11] ENGINE Bus EXITED
+[14/Aug/2018:13:46:16] ENGINE Bus STARTING
+[14/Aug/2018:13:46:16] ENGINE Set handler for console events.
+[14/Aug/2018:13:46:16] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:13:46:16] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:13:46:16] ENGINE Bus STARTED
+[14/Aug/2018:13:46:41] ENGINE Restarting because C:\Users\T4\Documents\DjangProjects\PyBrowse\main.py changed.
+[14/Aug/2018:13:46:41] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:13:46:41] ENGINE Bus STOPPING
+[14/Aug/2018:13:46:41] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:13:46:41] ENGINE Removed handler for console events.
+[14/Aug/2018:13:46:41] ENGINE Bus STOPPED
+[14/Aug/2018:13:46:41] ENGINE Bus EXITING
+[14/Aug/2018:13:46:41] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:13:46:41] ENGINE Bus EXITED
+[14/Aug/2018:13:46:41] ENGINE Re-spawning C:\Users\T4\Envs\PyBrowse\Scripts\python.exe main.py
+[14/Aug/2018:13:46:42] ENGINE Bus STARTING
+[14/Aug/2018:13:46:42] ENGINE Set handler for console events.
+[14/Aug/2018:13:46:42] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:13:46:42] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:13:46:42] ENGINE Bus STARTED
+[14/Aug/2018:13:46:45] ENGINE Bus STOPPING
+[14/Aug/2018:13:46:51] ENGINE Console event 0: shutting down bus
+[14/Aug/2018:13:46:51] ENGINE Removed handler for console events.
+[14/Aug/2018:13:46:51] ENGINE Bus STOPPING
+[14/Aug/2018:13:46:51] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:13:46:51] ENGINE Handler for console events already off.
+[14/Aug/2018:13:46:51] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:13:46:51] ENGINE Bus STOPPED
+[14/Aug/2018:13:46:51] ENGINE Bus EXITING
+[14/Aug/2018:13:46:51] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:13:46:51] ENGINE Bus EXITED
+[14/Aug/2018:13:46:51] ENGINE Console event 0: shutting down bus
+[14/Aug/2018:13:46:51] ENGINE Handler for console events already off.
+[14/Aug/2018:13:46:51] ENGINE Bus STOPPING
+[14/Aug/2018:13:46:52] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) already shut down
+[14/Aug/2018:13:46:52] ENGINE Handler for console events already off.
+[14/Aug/2018:13:46:52] ENGINE No thread running for None.
+[14/Aug/2018:13:46:52] ENGINE Bus STOPPED
+[14/Aug/2018:13:46:52] ENGINE Bus EXITING
+[14/Aug/2018:13:46:52] ENGINE Bus EXITED
+[14/Aug/2018:13:46:52] ENGINE Console event 0: shutting down bus
+[14/Aug/2018:13:46:52] ENGINE Handler for console events already off.
+[14/Aug/2018:13:46:52] ENGINE Bus STOPPING
+[14/Aug/2018:13:46:52] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) already shut down
+[14/Aug/2018:13:46:52] ENGINE Handler for console events already off.
+[14/Aug/2018:13:46:52] ENGINE No thread running for None.
+[14/Aug/2018:13:46:52] ENGINE Bus STOPPED
+[14/Aug/2018:13:46:52] ENGINE Bus EXITING
+[14/Aug/2018:13:46:52] ENGINE Bus EXITED
+[14/Aug/2018:13:46:52] ENGINE Console event 0: shutting down bus
+[14/Aug/2018:13:46:52] ENGINE Handler for console events already off.
+[14/Aug/2018:13:46:52] ENGINE Bus STOPPING
+[14/Aug/2018:13:46:52] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) already shut down
+[14/Aug/2018:13:46:52] ENGINE Handler for console events already off.
+[14/Aug/2018:13:46:52] ENGINE No thread running for None.
+[14/Aug/2018:13:46:52] ENGINE Bus STOPPED
+[14/Aug/2018:13:46:52] ENGINE Bus EXITING
+[14/Aug/2018:13:46:52] ENGINE Bus EXITED
+[14/Aug/2018:13:46:53] ENGINE Console event 0: shutting down bus
+[14/Aug/2018:13:46:53] ENGINE Handler for console events already off.
+[14/Aug/2018:13:46:53] ENGINE Bus STOPPING
+[14/Aug/2018:13:46:53] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) already shut down
+[14/Aug/2018:13:46:53] ENGINE Handler for console events already off.
+[14/Aug/2018:13:46:53] ENGINE No thread running for None.
+[14/Aug/2018:13:46:53] ENGINE Bus STOPPED
+[14/Aug/2018:13:46:53] ENGINE Bus EXITING
+[14/Aug/2018:13:46:53] ENGINE Bus EXITED
+[14/Aug/2018:13:46:53] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:13:46:53] ENGINE Handler for console events already off.
+[14/Aug/2018:13:46:53] ENGINE No thread running for None.
+[14/Aug/2018:13:46:53] ENGINE Bus STOPPED
+[14/Aug/2018:13:46:53] ENGINE Bus EXITING
+[14/Aug/2018:13:46:53] ENGINE Bus EXITED
+[14/Aug/2018:13:46:59] ENGINE Bus STARTING
+[14/Aug/2018:13:46:59] ENGINE Set handler for console events.
+[14/Aug/2018:13:46:59] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:13:47:00] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:13:47:00] ENGINE Bus STARTED
+[14/Aug/2018:13:47:09] ENGINE Bus STOPPING
+[14/Aug/2018:13:47:11] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:13:47:11] ENGINE Removed handler for console events.
+[14/Aug/2018:13:47:11] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:13:47:11] ENGINE Bus STOPPED
+[14/Aug/2018:13:47:11] ENGINE Bus EXITING
+[14/Aug/2018:13:47:11] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:13:47:11] ENGINE Bus EXITED
+[14/Aug/2018:13:48:13] ENGINE Bus STARTING
+[14/Aug/2018:13:48:13] ENGINE Set handler for console events.
+[14/Aug/2018:13:48:13] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:13:48:14] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:13:48:14] ENGINE Bus STARTED
+[14/Aug/2018:13:48:21] ENGINE Bus STOPPING
+[14/Aug/2018:13:48:25] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:13:48:25] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:13:48:25] ENGINE Removed handler for console events.
+[14/Aug/2018:13:48:25] ENGINE Bus STOPPED
+[14/Aug/2018:13:48:25] ENGINE Bus EXITING
+[14/Aug/2018:13:48:25] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:13:48:25] ENGINE Bus EXITED
+[14/Aug/2018:13:48:39] ENGINE Bus STARTING
+[14/Aug/2018:13:48:39] ENGINE Set handler for console events.
+[14/Aug/2018:13:48:39] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:13:48:40] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:13:48:40] ENGINE Bus STARTED
+[14/Aug/2018:13:49:16] ENGINE Restarting because C:\Users\T4\Documents\DjangProjects\PyBrowse\main.py changed.
+[14/Aug/2018:13:49:16] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:13:49:16] ENGINE Bus STOPPING
+[14/Aug/2018:13:49:16] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:13:49:16] ENGINE Removed handler for console events.
+[14/Aug/2018:13:49:16] ENGINE Bus STOPPED
+[14/Aug/2018:13:49:16] ENGINE Bus EXITING
+[14/Aug/2018:13:49:16] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:13:49:16] ENGINE Bus EXITED
+[14/Aug/2018:13:49:16] ENGINE Re-spawning C:\Users\T4\Envs\PyBrowse\Scripts\python.exe main.py
+[14/Aug/2018:13:49:17] ENGINE Bus STARTING
+[14/Aug/2018:13:49:17] ENGINE Set handler for console events.
+[14/Aug/2018:13:49:17] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:13:49:18] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:13:49:18] ENGINE Bus STARTED
+[14/Aug/2018:13:49:24] ENGINE Bus STOPPING
+[14/Aug/2018:13:49:32] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:13:49:32] ENGINE Removed handler for console events.
+[14/Aug/2018:13:49:32] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:13:49:32] ENGINE Bus STOPPED
+[14/Aug/2018:13:49:32] ENGINE Bus EXITING
+[14/Aug/2018:13:49:32] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:13:49:32] ENGINE Bus EXITED
+[14/Aug/2018:13:50:03] ENGINE Bus STARTING
+[14/Aug/2018:13:50:03] ENGINE Set handler for console events.
+[14/Aug/2018:13:50:03] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:13:50:03] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:13:50:03] ENGINE Bus STARTED
+[14/Aug/2018:13:50:10] ENGINE Bus STOPPING
+[14/Aug/2018:13:50:14] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:13:50:14] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:13:50:14] ENGINE Removed handler for console events.
+[14/Aug/2018:13:50:14] ENGINE Bus STOPPED
+[14/Aug/2018:13:50:14] ENGINE Bus EXITING
+[14/Aug/2018:13:50:14] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:13:50:14] ENGINE Bus EXITED
+[14/Aug/2018:13:50:42] ENGINE Bus STARTING
+[14/Aug/2018:13:50:42] ENGINE Set handler for console events.
+[14/Aug/2018:13:50:42] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:13:50:43] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:13:50:43] ENGINE Bus STARTED
+[14/Aug/2018:13:50:53] ENGINE Bus STOPPING
+[14/Aug/2018:13:50:54] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:13:50:54] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:13:50:54] ENGINE Removed handler for console events.
+[14/Aug/2018:13:50:54] ENGINE Bus STOPPED
+[14/Aug/2018:13:50:54] ENGINE Bus EXITING
+[14/Aug/2018:13:50:54] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:13:50:54] ENGINE Bus EXITED
+[14/Aug/2018:13:51:03] ENGINE Bus STARTING
+[14/Aug/2018:13:51:03] ENGINE Set handler for console events.
+[14/Aug/2018:13:51:03] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:13:51:03] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:13:51:03] ENGINE Bus STARTED
+[14/Aug/2018:13:51:11] ENGINE Bus STOPPING
+[14/Aug/2018:13:51:14] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:13:51:14] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:13:51:14] ENGINE Removed handler for console events.
+[14/Aug/2018:13:51:14] ENGINE Bus STOPPED
+[14/Aug/2018:13:51:14] ENGINE Bus EXITING
+[14/Aug/2018:13:51:14] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:13:51:14] ENGINE Bus EXITED
+[14/Aug/2018:13:51:54] ENGINE Bus STARTING
+[14/Aug/2018:13:51:54] ENGINE Set handler for console events.
+[14/Aug/2018:13:51:54] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:13:51:54] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:13:51:54] ENGINE Bus STARTED
+[14/Aug/2018:13:52:01] ENGINE Bus STOPPING
+[14/Aug/2018:13:52:05] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:13:52:05] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:13:52:05] ENGINE Removed handler for console events.
+[14/Aug/2018:13:52:05] ENGINE Bus STOPPED
+[14/Aug/2018:13:52:05] ENGINE Bus EXITING
+[14/Aug/2018:13:52:05] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:13:52:05] ENGINE Bus EXITED
+[14/Aug/2018:13:52:38] ENGINE Bus STARTING
+[14/Aug/2018:13:52:38] ENGINE Set handler for console events.
+[14/Aug/2018:13:52:38] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:13:52:38] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:13:52:38] ENGINE Bus STARTED
+[14/Aug/2018:13:52:49] ENGINE Bus STOPPING
+[14/Aug/2018:13:52:50] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:13:52:50] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:13:52:50] ENGINE Removed handler for console events.
+[14/Aug/2018:13:52:50] ENGINE Bus STOPPED
+[14/Aug/2018:13:52:50] ENGINE Bus EXITING
+[14/Aug/2018:13:52:50] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:13:52:50] ENGINE Bus EXITED
+[14/Aug/2018:13:53:48] ENGINE Bus STARTING
+[14/Aug/2018:13:53:48] ENGINE Set handler for console events.
+[14/Aug/2018:13:53:48] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:13:53:48] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:13:53:48] ENGINE Bus STARTED
+[14/Aug/2018:13:53:57] ENGINE Bus STOPPING
+[14/Aug/2018:13:53:59] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:13:53:59] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:13:53:59] ENGINE Removed handler for console events.
+[14/Aug/2018:13:53:59] ENGINE Bus STOPPED
+[14/Aug/2018:13:53:59] ENGINE Bus EXITING
+[14/Aug/2018:13:53:59] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:13:53:59] ENGINE Bus EXITED
+[14/Aug/2018:13:54:28] ENGINE Bus STARTING
+[14/Aug/2018:13:54:28] ENGINE Set handler for console events.
+[14/Aug/2018:13:54:28] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:13:54:28] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:13:54:28] ENGINE Bus STARTED
+[14/Aug/2018:13:54:35] ENGINE Bus STOPPING
+[14/Aug/2018:13:54:40] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:13:54:40] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:13:54:40] ENGINE Removed handler for console events.
+[14/Aug/2018:13:54:40] ENGINE Bus STOPPED
+[14/Aug/2018:13:54:40] ENGINE Bus EXITING
+[14/Aug/2018:13:54:40] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:13:54:40] ENGINE Bus EXITED
+[14/Aug/2018:13:55:16] ENGINE Bus STARTING
+[14/Aug/2018:13:55:16] ENGINE Set handler for console events.
+[14/Aug/2018:13:55:16] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:13:55:17] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:13:55:17] ENGINE Bus STARTED
+[14/Aug/2018:13:55:43] ENGINE Restarting because C:\Users\T4\Documents\DjangProjects\PyBrowse\main.py changed.
+[14/Aug/2018:13:55:43] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:13:55:43] ENGINE Bus STOPPING
+[14/Aug/2018:13:55:43] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:13:55:43] ENGINE Removed handler for console events.
+[14/Aug/2018:13:55:43] ENGINE Bus STOPPED
+[14/Aug/2018:13:55:43] ENGINE Bus EXITING
+[14/Aug/2018:13:55:43] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:13:55:43] ENGINE Bus EXITED
+[14/Aug/2018:13:55:43] ENGINE Re-spawning C:\Users\T4\Envs\PyBrowse\Scripts\python.exe main.py
+[14/Aug/2018:13:55:44] ENGINE Bus STARTING
+[14/Aug/2018:13:55:44] ENGINE Set handler for console events.
+[14/Aug/2018:13:55:44] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:13:55:45] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:13:55:45] ENGINE Bus STARTED
+[14/Aug/2018:13:55:54] ENGINE Bus STOPPING
+[14/Aug/2018:13:55:59] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:13:55:59] ENGINE Removed handler for console events.
+[14/Aug/2018:13:55:59] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:13:55:59] ENGINE Bus STOPPED
+[14/Aug/2018:13:55:59] ENGINE Bus EXITING
+[14/Aug/2018:13:55:59] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:13:55:59] ENGINE Bus EXITED
+[14/Aug/2018:13:57:29] ENGINE Bus STARTING
+[14/Aug/2018:13:57:29] ENGINE Set handler for console events.
+[14/Aug/2018:13:57:29] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:13:57:29] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:13:57:29] ENGINE Bus STARTED
+[14/Aug/2018:13:57:38] ENGINE Bus STOPPING
+[14/Aug/2018:13:57:44] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:13:57:44] ENGINE Removed handler for console events.
+[14/Aug/2018:13:57:44] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:13:57:44] ENGINE Bus STOPPED
+[14/Aug/2018:13:57:44] ENGINE Bus EXITING
+[14/Aug/2018:13:57:44] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:13:57:44] ENGINE Bus EXITED
+[14/Aug/2018:13:58:39] ENGINE Bus STARTING
+[14/Aug/2018:13:58:39] ENGINE Set handler for console events.
+[14/Aug/2018:13:58:39] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:13:58:39] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:13:58:39] ENGINE Bus STARTED
+[14/Aug/2018:14:02:16] ENGINE Restarting because C:\Users\T4\Documents\DjangProjects\PyBrowse\main.py changed.
+[14/Aug/2018:14:02:16] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:14:02:16] ENGINE Bus STOPPING
+[14/Aug/2018:14:02:16] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:14:02:16] ENGINE Removed handler for console events.
+[14/Aug/2018:14:02:16] ENGINE Bus STOPPED
+[14/Aug/2018:14:02:16] ENGINE Bus EXITING
+[14/Aug/2018:14:02:16] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:14:02:16] ENGINE Bus EXITED
+[14/Aug/2018:14:02:16] ENGINE Re-spawning C:\Users\T4\Envs\PyBrowse\Scripts\python.exe main.py
+[14/Aug/2018:14:02:17] ENGINE Bus STARTING
+[14/Aug/2018:14:02:17] ENGINE Set handler for console events.
+[14/Aug/2018:14:02:17] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:14:02:17] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:14:02:17] ENGINE Bus STARTED
+[14/Aug/2018:14:02:22] ENGINE Restarting because C:\Users\T4\Documents\DjangProjects\PyBrowse\main.py changed.
+[14/Aug/2018:14:02:22] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:14:02:22] ENGINE Bus STOPPING
+[14/Aug/2018:14:02:23] ENGINE Bus STOPPING
+[14/Aug/2018:14:02:23] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:14:02:23] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:14:02:23] ENGINE Removed handler for console events.
+[14/Aug/2018:14:02:23] ENGINE Bus STOPPED
+[14/Aug/2018:14:02:23] ENGINE Bus EXITING
+[14/Aug/2018:14:02:23] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:14:02:23] ENGINE Bus EXITED
+[14/Aug/2018:14:02:23] ENGINE Re-spawning C:\Users\T4\Envs\PyBrowse\Scripts\python.exe main.py
+[14/Aug/2018:14:02:24] ENGINE Bus STARTING
+[14/Aug/2018:14:02:24] ENGINE Set handler for console events.
+[14/Aug/2018:14:02:24] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:14:02:24] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:14:02:24] ENGINE Bus STARTED
+[14/Aug/2018:14:02:27] ENGINE Console event 0: shutting down bus
+[14/Aug/2018:14:02:27] ENGINE Removed handler for console events.
+[14/Aug/2018:14:02:27] ENGINE Bus STOPPING
+[14/Aug/2018:14:02:30] ENGINE Bus STOPPING
+[14/Aug/2018:14:02:31] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:14:02:31] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:14:02:31] ENGINE Handler for console events already off.
+[14/Aug/2018:14:02:31] ENGINE Bus STOPPED
+[14/Aug/2018:14:02:31] ENGINE Bus EXITING
+[14/Aug/2018:14:02:31] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:14:02:31] ENGINE Bus EXITED
+[14/Aug/2018:14:02:43] ENGINE Bus STARTING
+[14/Aug/2018:14:02:43] ENGINE Set handler for console events.
+[14/Aug/2018:14:02:43] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:14:02:44] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:14:02:44] ENGINE Bus STARTED
+[14/Aug/2018:14:02:49] ENGINE Restarting because C:\Users\T4\Documents\DjangProjects\PyBrowse\main.py changed.
+[14/Aug/2018:14:02:49] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:14:02:49] ENGINE Bus STOPPING
+[14/Aug/2018:14:02:54] ENGINE Console event 0: shutting down bus
+[14/Aug/2018:14:02:54] ENGINE Removed handler for console events.
+[14/Aug/2018:14:02:54] ENGINE Bus STOPPING
+[14/Aug/2018:14:02:55] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:14:02:55] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:14:02:55] ENGINE Handler for console events already off.
+[14/Aug/2018:14:02:55] ENGINE Bus STOPPED
+[14/Aug/2018:14:02:55] ENGINE Bus EXITING
+[14/Aug/2018:14:02:55] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:14:02:55] ENGINE Bus EXITED
+[14/Aug/2018:14:02:55] ENGINE Re-spawning C:\Users\T4\Envs\PyBrowse\Scripts\python.exe main.py
+[14/Aug/2018:14:02:55] ENGINE Bus STARTING
+[14/Aug/2018:14:02:55] ENGINE Set handler for console events.
+[14/Aug/2018:14:02:55] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:14:02:56] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:14:02:56] ENGINE Bus STARTED
+[14/Aug/2018:14:02:59] ENGINE Bus STOPPING
+[14/Aug/2018:14:03:07] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:14:03:07] ENGINE Removed handler for console events.
+[14/Aug/2018:14:03:07] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:14:03:07] ENGINE Bus STOPPED
+[14/Aug/2018:14:03:07] ENGINE Bus EXITING
+[14/Aug/2018:14:03:07] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:14:03:07] ENGINE Bus EXITED
+[14/Aug/2018:14:03:20] ENGINE Bus STARTING
+[14/Aug/2018:14:03:20] ENGINE Set handler for console events.
+[14/Aug/2018:14:03:20] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:14:03:20] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:14:03:20] ENGINE Bus STARTED
+[14/Aug/2018:14:03:27] ENGINE Bus STOPPING
+[14/Aug/2018:14:03:31] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:14:03:31] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:14:03:31] ENGINE Removed handler for console events.
+[14/Aug/2018:14:03:31] ENGINE Bus STOPPED
+[14/Aug/2018:14:03:31] ENGINE Bus EXITING
+[14/Aug/2018:14:03:31] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:14:03:31] ENGINE Bus EXITED
+[14/Aug/2018:14:05:42] ENGINE Bus STARTING
+[14/Aug/2018:14:05:42] ENGINE Set handler for console events.
+[14/Aug/2018:14:05:42] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:14:05:42] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:14:05:42] ENGINE Bus STARTED
+[14/Aug/2018:14:06:08] ENGINE Restarting because C:\Users\T4\Documents\DjangProjects\PyBrowse\main.py changed.
+[14/Aug/2018:14:06:08] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:14:06:08] ENGINE Bus STOPPING
+[14/Aug/2018:14:06:08] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:14:06:08] ENGINE Removed handler for console events.
+[14/Aug/2018:14:06:08] ENGINE Bus STOPPED
+[14/Aug/2018:14:06:08] ENGINE Bus EXITING
+[14/Aug/2018:14:06:08] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:14:06:08] ENGINE Bus EXITED
+[14/Aug/2018:14:06:08] ENGINE Re-spawning C:\Users\T4\Envs\PyBrowse\Scripts\python.exe main.py
+[14/Aug/2018:14:06:09] ENGINE Bus STARTING
+[14/Aug/2018:14:06:09] ENGINE Set handler for console events.
+[14/Aug/2018:14:06:09] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:14:06:09] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:14:06:09] ENGINE Bus STARTED
+[14/Aug/2018:14:06:18] ENGINE Bus STOPPING
+[14/Aug/2018:14:06:24] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:14:06:24] ENGINE Removed handler for console events.
+[14/Aug/2018:14:06:24] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:14:06:24] ENGINE Bus STOPPED
+[14/Aug/2018:14:06:24] ENGINE Bus EXITING
+[14/Aug/2018:14:06:24] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:14:06:24] ENGINE Bus EXITED
+[14/Aug/2018:14:07:10] ENGINE Bus STARTING
+[14/Aug/2018:14:07:10] ENGINE Set handler for console events.
+[14/Aug/2018:14:07:10] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:14:07:10] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:14:07:10] ENGINE Bus STARTED
+[14/Aug/2018:14:07:19] ENGINE Bus STOPPING
+[14/Aug/2018:14:07:26] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:14:07:26] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:14:07:26] ENGINE Removed handler for console events.
+[14/Aug/2018:14:07:26] ENGINE Bus STOPPED
+[14/Aug/2018:14:07:26] ENGINE Bus EXITING
+[14/Aug/2018:14:07:26] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:14:07:26] ENGINE Bus EXITED
+[14/Aug/2018:14:08:21] ENGINE Bus STARTING
+[14/Aug/2018:14:08:21] ENGINE Set handler for console events.
+[14/Aug/2018:14:08:21] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:14:08:21] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:14:08:21] ENGINE Bus STARTED
+[14/Aug/2018:14:09:18] ENGINE Restarting because C:\Users\T4\Documents\DjangProjects\PyBrowse\main.py changed.
+[14/Aug/2018:14:09:18] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:14:09:18] ENGINE Bus STOPPING
+[14/Aug/2018:14:09:19] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:14:09:19] ENGINE Removed handler for console events.
+[14/Aug/2018:14:09:19] ENGINE Bus STOPPED
+[14/Aug/2018:14:09:19] ENGINE Bus EXITING
+[14/Aug/2018:14:09:19] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:14:09:19] ENGINE Bus EXITED
+[14/Aug/2018:14:09:19] ENGINE Re-spawning C:\Users\T4\Envs\PyBrowse\Scripts\python.exe main.py
+[14/Aug/2018:14:09:20] ENGINE Bus STARTING
+[14/Aug/2018:14:09:20] ENGINE Set handler for console events.
+[14/Aug/2018:14:09:20] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:14:09:20] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:14:09:20] ENGINE Bus STARTED
+[14/Aug/2018:14:09:26] ENGINE Bus STOPPING
+[14/Aug/2018:14:09:31] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:14:09:31] ENGINE Removed handler for console events.
+[14/Aug/2018:14:09:31] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:14:09:31] ENGINE Bus STOPPED
+[14/Aug/2018:14:09:31] ENGINE Bus EXITING
+[14/Aug/2018:14:09:31] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:14:09:31] ENGINE Bus EXITED
+[14/Aug/2018:14:10:59] ENGINE Bus STARTING
+[14/Aug/2018:14:10:59] ENGINE Set handler for console events.
+[14/Aug/2018:14:10:59] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:14:10:59] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:14:10:59] ENGINE Bus STARTED
+[14/Aug/2018:14:11:09] ENGINE Bus STOPPING
+[14/Aug/2018:14:11:14] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:14:11:14] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:14:11:14] ENGINE Removed handler for console events.
+[14/Aug/2018:14:11:14] ENGINE Bus STOPPED
+[14/Aug/2018:14:11:14] ENGINE Bus EXITING
+[14/Aug/2018:14:11:14] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:14:11:14] ENGINE Bus EXITED
+[14/Aug/2018:14:13:16] ENGINE Bus STARTING
+[14/Aug/2018:14:13:16] ENGINE Set handler for console events.
+[14/Aug/2018:14:13:16] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:14:13:17] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:14:13:17] ENGINE Bus STARTED
+[14/Aug/2018:14:13:21] HTTP 
+Traceback (most recent call last):
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\_cprequest.py", line 627, in respond
+    self._do_respond(path_info)
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\_cprequest.py", line 686, in _do_respond
+    response.body = self.handler()
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 121, in generate
+    return ''.join(random.choice(string.hexdigits, 12))
+TypeError: choice() takes 2 positional arguments but 3 were given
+[14/Aug/2018:14:13:21] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  REFERER: http://localhost:9090/
+  ACCEPT-LANGUAGE: en-US,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+  HOST: localhost:9090
+  CONNECTION: Keep-Alive
+  COOKIE: session_id=74602a459578d4dc0166600370f5613a9dfbf44c
+[14/Aug/2018:14:13:30] ENGINE Restarting because C:\Users\T4\Documents\DjangProjects\PyBrowse\main.py changed.
+[14/Aug/2018:14:13:30] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:14:13:30] ENGINE Bus STOPPING
+[14/Aug/2018:14:13:31] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:14:13:31] ENGINE Removed handler for console events.
+[14/Aug/2018:14:13:31] ENGINE Bus STOPPED
+[14/Aug/2018:14:13:31] ENGINE Bus EXITING
+[14/Aug/2018:14:13:31] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:14:13:31] ENGINE Bus EXITED
+[14/Aug/2018:14:13:31] ENGINE Re-spawning C:\Users\T4\Envs\PyBrowse\Scripts\python.exe main.py
+[14/Aug/2018:14:13:32] ENGINE Bus STARTING
+[14/Aug/2018:14:13:32] ENGINE Set handler for console events.
+[14/Aug/2018:14:13:32] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:14:13:33] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:14:13:33] ENGINE Bus STARTED
+[14/Aug/2018:14:13:38] ENGINE Bus STARTING
+[14/Aug/2018:14:13:38] ENGINE Set handler for console events.
+[14/Aug/2018:14:13:38] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:14:13:39] ENGINE Error in 'start' listener <bound method Server.start of <cherrypy._cpserver.Server object at 0x04592CF0>>
+Traceback (most recent call last):
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\process\wspbus.py", line 230, in publish
+    output.append(listener(*args, **kwargs))
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\_cpserver.py", line 191, in start
+    super(Server, self).start()
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\process\servers.py", line 177, in start
+    portend.free(*self.bind_addr, timeout=Timeouts.free)
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\portend.py", line 119, in free
+    raise Timeout("Port {port} not free on {host}.".format(**locals()))
+portend.Timeout: Port 9090 not free on 127.0.0.1.
+
+[14/Aug/2018:14:13:39] ENGINE Shutting down due to error in start listener:
+Traceback (most recent call last):
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\process\wspbus.py", line 268, in start
+    self.publish('start')
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\process\wspbus.py", line 248, in publish
+    raise exc
+cherrypy.process.wspbus.ChannelFailures: Timeout('Port 9090 not free on 127.0.0.1.',)
+
+[14/Aug/2018:14:13:39] ENGINE Bus STOPPING
+[14/Aug/2018:14:13:39] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) already shut down
+[14/Aug/2018:14:13:39] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:14:13:39] ENGINE Removed handler for console events.
+[14/Aug/2018:14:13:39] ENGINE Bus STOPPED
+[14/Aug/2018:14:13:39] ENGINE Bus EXITING
+[14/Aug/2018:14:13:39] ENGINE Bus EXITED
+[14/Aug/2018:14:13:47] HTTP 
+Traceback (most recent call last):
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\_cprequest.py", line 627, in respond
+    self._do_respond(path_info)
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\_cprequest.py", line 686, in _do_respond
+    response.body = self.handler()
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 121, in generate
+    return ''.join(random.choice(string.acii_letters, 8))
+TypeError: choice() takes 2 positional arguments but 3 were given
+[14/Aug/2018:14:13:47] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  REFERER: http://localhost:9090/
+  ACCEPT-LANGUAGE: en-US,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+  HOST: localhost:9090
+  CONNECTION: Keep-Alive
+  COOKIE: session_id=f42dd0afb9f32e49a4dd7df236da00217519012b
+[14/Aug/2018:14:13:49] HTTP 
+Traceback (most recent call last):
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\_cprequest.py", line 627, in respond
+    self._do_respond(path_info)
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\_cprequest.py", line 686, in _do_respond
+    response.body = self.handler()
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 121, in generate
+    return ''.join(random.choice(string.acii_letters, 8))
+TypeError: choice() takes 2 positional arguments but 3 were given
+[14/Aug/2018:14:13:49] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  REFERER: http://localhost:9090/
+  ACCEPT-LANGUAGE: en-US,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+  HOST: localhost:9090
+  CONNECTION: Keep-Alive
+  COOKIE: session_id=74dce4c259b367718ec4197f03537ed2bb7b7eb5
+[14/Aug/2018:14:13:50] HTTP 
+Traceback (most recent call last):
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\_cprequest.py", line 627, in respond
+    self._do_respond(path_info)
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\_cprequest.py", line 686, in _do_respond
+    response.body = self.handler()
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 121, in generate
+    return ''.join(random.choice(string.acii_letters, 8))
+TypeError: choice() takes 2 positional arguments but 3 were given
+[14/Aug/2018:14:13:50] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  REFERER: http://localhost:9090/
+  ACCEPT-LANGUAGE: en-US,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+  HOST: localhost:9090
+  CONNECTION: Keep-Alive
+  COOKIE: session_id=9b6ce92ddc2a0b510a6ffbe5c79dd4dd432a7eff
+[14/Aug/2018:14:13:51] ENGINE Bus STOPPING
+[14/Aug/2018:14:14:00] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:14:14:00] ENGINE Removed handler for console events.
+[14/Aug/2018:14:14:00] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:14:14:00] ENGINE Bus STOPPED
+[14/Aug/2018:14:14:00] ENGINE Bus EXITING
+[14/Aug/2018:14:14:00] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:14:14:00] ENGINE Bus EXITED
+[14/Aug/2018:14:14:47] ENGINE Bus STARTING
+[14/Aug/2018:14:14:47] ENGINE Set handler for console events.
+[14/Aug/2018:14:14:47] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:14:14:47] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:14:14:47] ENGINE Bus STARTED
+[14/Aug/2018:14:14:52] HTTP 
+Traceback (most recent call last):
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\_cprequest.py", line 627, in respond
+    self._do_respond(path_info)
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\_cprequest.py", line 686, in _do_respond
+    response.body = self.handler()
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 122, in generate
+    print('called generate %d' % ++request_count)
+NameError: name 'request_count' is not defined
+[14/Aug/2018:14:14:52] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  REFERER: http://localhost:9090/
+  ACCEPT-LANGUAGE: en-US,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+  HOST: localhost:9090
+  CONNECTION: Keep-Alive
+  COOKIE: session_id=ca5995c6ac13fb1b8962593c8eb9acb61c156517
+[14/Aug/2018:14:15:07] ENGINE Restarting because C:\Users\T4\Documents\DjangProjects\PyBrowse\main.py changed.
+[14/Aug/2018:14:15:07] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:14:15:07] ENGINE Bus STOPPING
+[14/Aug/2018:14:15:07] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:14:15:07] ENGINE Removed handler for console events.
+[14/Aug/2018:14:15:07] ENGINE Bus STOPPED
+[14/Aug/2018:14:15:07] ENGINE Bus EXITING
+[14/Aug/2018:14:15:07] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:14:15:07] ENGINE Bus EXITED
+[14/Aug/2018:14:15:07] ENGINE Re-spawning C:\Users\T4\Envs\PyBrowse\Scripts\python.exe main.py
+[14/Aug/2018:14:15:08] ENGINE Bus STARTING
+[14/Aug/2018:14:15:08] ENGINE Set handler for console events.
+[14/Aug/2018:14:15:08] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:14:15:08] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:14:15:08] ENGINE Bus STARTED
+[14/Aug/2018:14:15:16] ENGINE Bus STOPPING
+[14/Aug/2018:14:15:23] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:14:15:23] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:14:15:23] ENGINE Removed handler for console events.
+[14/Aug/2018:14:15:23] ENGINE Bus STOPPED
+[14/Aug/2018:14:15:23] ENGINE Bus EXITING
+[14/Aug/2018:14:15:23] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:14:15:23] ENGINE Bus EXITED
+[14/Aug/2018:14:18:21] ENGINE Bus STARTING
+[14/Aug/2018:14:18:21] ENGINE Set handler for console events.
+[14/Aug/2018:14:18:21] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:14:18:22] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:14:18:22] ENGINE Bus STARTED
+[14/Aug/2018:14:18:41] ENGINE Bus STOPPING
+[14/Aug/2018:14:18:46] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:14:18:46] ENGINE Removed handler for console events.
+[14/Aug/2018:14:18:46] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:14:18:46] ENGINE Bus STOPPED
+[14/Aug/2018:14:18:46] ENGINE Bus EXITING
+[14/Aug/2018:14:18:46] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:14:18:46] ENGINE Bus EXITED
+[14/Aug/2018:14:19:05] ENGINE Bus STARTING
+[14/Aug/2018:14:19:05] ENGINE Set handler for console events.
+[14/Aug/2018:14:19:05] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:14:19:06] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:14:19:06] ENGINE Bus STARTED
+[14/Aug/2018:14:19:39] ENGINE Restarting because C:\Users\T4\Documents\DjangProjects\PyBrowse\main.py changed.
+[14/Aug/2018:14:19:39] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:14:19:39] ENGINE Bus STOPPING
+[14/Aug/2018:14:19:39] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:14:19:39] ENGINE Removed handler for console events.
+[14/Aug/2018:14:19:39] ENGINE Bus STOPPED
+[14/Aug/2018:14:19:39] ENGINE Bus EXITING
+[14/Aug/2018:14:19:39] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:14:19:39] ENGINE Bus EXITED
+[14/Aug/2018:14:19:39] ENGINE Re-spawning C:\Users\T4\Envs\PyBrowse\Scripts\python.exe main.py
+[14/Aug/2018:14:19:40] ENGINE Bus STARTING
+[14/Aug/2018:14:19:40] ENGINE Set handler for console events.
+[14/Aug/2018:14:19:40] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:14:19:41] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:14:19:41] ENGINE Bus STARTED
+[14/Aug/2018:14:19:48] ENGINE Bus STOPPING
+[14/Aug/2018:14:19:55] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:14:19:55] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:14:19:55] ENGINE Removed handler for console events.
+[14/Aug/2018:14:19:55] ENGINE Bus STOPPED
+[14/Aug/2018:14:19:55] ENGINE Bus EXITING
+[14/Aug/2018:14:19:55] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:14:19:55] ENGINE Bus EXITED
+[14/Aug/2018:14:21:13] ENGINE Bus STARTING
+[14/Aug/2018:14:21:13] ENGINE Set handler for console events.
+[14/Aug/2018:14:21:13] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:14:21:14] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:14:21:14] ENGINE Bus STARTED
+[14/Aug/2018:14:21:24] ENGINE Bus STOPPING
+[14/Aug/2018:14:21:28] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:14:21:28] ENGINE Removed handler for console events.
+[14/Aug/2018:14:21:28] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:14:21:28] ENGINE Bus STOPPED
+[14/Aug/2018:14:21:28] ENGINE Bus EXITING
+[14/Aug/2018:14:21:28] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:14:21:28] ENGINE Bus EXITED
+[14/Aug/2018:14:22:38] ENGINE Bus STARTING
+[14/Aug/2018:14:22:38] ENGINE Set handler for console events.
+[14/Aug/2018:14:22:38] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:14:22:39] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:14:22:39] ENGINE Bus STARTED
+[14/Aug/2018:14:22:45] ENGINE Bus STOPPING
+[14/Aug/2018:14:22:53] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:14:22:53] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:14:22:53] ENGINE Removed handler for console events.
+[14/Aug/2018:14:22:53] ENGINE Bus STOPPED
+[14/Aug/2018:14:22:53] ENGINE Bus EXITING
+[14/Aug/2018:14:22:53] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:14:22:53] ENGINE Bus EXITED
+[14/Aug/2018:14:23:44] ENGINE Bus STARTING
+[14/Aug/2018:14:23:44] ENGINE Set handler for console events.
+[14/Aug/2018:14:23:44] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:14:23:44] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:14:23:44] ENGINE Bus STARTED
+[14/Aug/2018:14:23:49] HTTP 
+Traceback (most recent call last):
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\_cprequest.py", line 627, in respond
+    self._do_respond(path_info)
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\_cprequest.py", line 686, in _do_respond
+    response.body = self.handler()
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 108, in generate
+    test_var = test_var + 1
+UnboundLocalError: local variable 'test_var' referenced before assignment
+[14/Aug/2018:14:23:49] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  REFERER: http://localhost:9090/
+  ACCEPT-LANGUAGE: en-US,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+  HOST: localhost:9090
+  CONNECTION: Keep-Alive
+  COOKIE: session_id=be055f2dcd829f580646df0b0bc656f101d27c8b
+[14/Aug/2018:14:23:51] HTTP 
+Traceback (most recent call last):
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\_cprequest.py", line 627, in respond
+    self._do_respond(path_info)
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\_cprequest.py", line 686, in _do_respond
+    response.body = self.handler()
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 108, in generate
+    test_var = test_var + 1
+UnboundLocalError: local variable 'test_var' referenced before assignment
+[14/Aug/2018:14:23:51] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  REFERER: http://localhost:9090/
+  ACCEPT-LANGUAGE: en-US,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+  HOST: localhost:9090
+  CONNECTION: Keep-Alive
+  COOKIE: session_id=9980302c98105e1b1fbb428003f824c9041d0445
+[14/Aug/2018:14:24:23] ENGINE Restarting because C:\Users\T4\Documents\DjangProjects\PyBrowse\main.py changed.
+[14/Aug/2018:14:24:23] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:14:24:23] ENGINE Bus STOPPING
+[14/Aug/2018:14:24:23] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:14:24:23] ENGINE Removed handler for console events.
+[14/Aug/2018:14:24:23] ENGINE Bus STOPPED
+[14/Aug/2018:14:24:23] ENGINE Bus EXITING
+[14/Aug/2018:14:24:23] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:14:24:23] ENGINE Bus EXITED
+[14/Aug/2018:14:24:23] ENGINE Re-spawning C:\Users\T4\Envs\PyBrowse\Scripts\python.exe main.py
+[14/Aug/2018:14:24:24] ENGINE Bus STARTING
+[14/Aug/2018:14:24:24] ENGINE Set handler for console events.
+[14/Aug/2018:14:24:24] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:14:24:25] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:14:24:25] ENGINE Bus STARTED
+[14/Aug/2018:14:24:31] HTTP 
+Traceback (most recent call last):
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\_cprequest.py", line 627, in respond
+    self._do_respond(path_info)
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\_cprequest.py", line 686, in _do_respond
+    response.body = self.handler()
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 108, in generate
+    test_var = test_var + 1
+UnboundLocalError: local variable 'test_var' referenced before assignment
+[14/Aug/2018:14:24:31] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  REFERER: http://localhost:9090/
+  ACCEPT-LANGUAGE: en-US,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+  HOST: localhost:9090
+  CONNECTION: Keep-Alive
+  COOKIE: session_id=508792f435749f2d16e7bcebf2554852dd5dc7d6
+[14/Aug/2018:14:24:33] ENGINE Bus STOPPING
+[14/Aug/2018:14:24:41] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:14:24:41] ENGINE Removed handler for console events.
+[14/Aug/2018:14:24:41] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:14:24:41] ENGINE Bus STOPPED
+[14/Aug/2018:14:24:41] ENGINE Bus EXITING
+[14/Aug/2018:14:24:41] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:14:24:41] ENGINE Bus EXITED
+[14/Aug/2018:14:24:56] ENGINE Bus STARTING
+[14/Aug/2018:14:24:56] ENGINE Set handler for console events.
+[14/Aug/2018:14:24:56] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:14:24:56] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:14:24:56] ENGINE Bus STARTED
+[14/Aug/2018:14:25:00] HTTP 
+Traceback (most recent call last):
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\_cprequest.py", line 627, in respond
+    self._do_respond(path_info)
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\_cprequest.py", line 686, in _do_respond
+    response.body = self.handler()
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 108, in generate
+    test_var = test_var + 1
+UnboundLocalError: local variable 'test_var' referenced before assignment
+[14/Aug/2018:14:25:00] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  REFERER: http://localhost:9090/
+  ACCEPT-LANGUAGE: en-US,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+  HOST: localhost:9090
+  CONNECTION: Keep-Alive
+  COOKIE: session_id=fdb6e9f946ba9959feafb2884ec8c6bd2b413784
+[14/Aug/2018:14:25:01] HTTP 
+Traceback (most recent call last):
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\_cprequest.py", line 627, in respond
+    self._do_respond(path_info)
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\_cprequest.py", line 686, in _do_respond
+    response.body = self.handler()
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Users\T4\Envs\PyBrowse\lib\site-packages\cherrypy\_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 108, in generate
+    test_var = test_var + 1
+UnboundLocalError: local variable 'test_var' referenced before assignment
+[14/Aug/2018:14:25:01] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  REFERER: http://localhost:9090/
+  ACCEPT-LANGUAGE: en-US,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+  HOST: localhost:9090
+  CONNECTION: Keep-Alive
+  COOKIE: session_id=a074a0f0f98ddb8417da470cdcf6f69eb991c2ca
+[14/Aug/2018:14:25:03] ENGINE Console event 0: shutting down bus
+[14/Aug/2018:14:25:03] ENGINE Removed handler for console events.
+[14/Aug/2018:14:25:03] ENGINE Bus STOPPING
+[14/Aug/2018:14:25:11] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:14:25:11] ENGINE Handler for console events already off.
+[14/Aug/2018:14:25:11] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:14:25:11] ENGINE Bus STOPPED
+[14/Aug/2018:14:25:11] ENGINE Bus EXITING
+[14/Aug/2018:14:25:11] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:14:25:11] ENGINE Bus EXITED
+[14/Aug/2018:14:25:14] ENGINE Console event 0: shutting down bus
+[14/Aug/2018:14:25:14] ENGINE Handler for console events already off.
+[14/Aug/2018:14:25:14] ENGINE Bus STOPPING
+[14/Aug/2018:14:25:14] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) already shut down
+[14/Aug/2018:14:25:14] ENGINE Handler for console events already off.
+[14/Aug/2018:14:25:14] ENGINE No thread running for None.
+[14/Aug/2018:14:25:14] ENGINE Bus STOPPED
+[14/Aug/2018:14:25:14] ENGINE Bus EXITING
+[14/Aug/2018:14:25:14] ENGINE Bus EXITED
+[14/Aug/2018:14:25:15] ENGINE Console event 0: shutting down bus
+[14/Aug/2018:14:25:15] ENGINE Handler for console events already off.
+[14/Aug/2018:14:25:15] ENGINE Bus STOPPING
+[14/Aug/2018:14:25:15] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) already shut down
+[14/Aug/2018:14:25:15] ENGINE Handler for console events already off.
+[14/Aug/2018:14:25:15] ENGINE No thread running for None.
+[14/Aug/2018:14:25:15] ENGINE Bus STOPPED
+[14/Aug/2018:14:25:15] ENGINE Bus EXITING
+[14/Aug/2018:14:25:15] ENGINE Bus EXITED
+[14/Aug/2018:14:25:16] ENGINE Console event 0: shutting down bus
+[14/Aug/2018:14:25:16] ENGINE Handler for console events already off.
+[14/Aug/2018:14:25:16] ENGINE Bus STOPPING
+[14/Aug/2018:14:25:16] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) already shut down
+[14/Aug/2018:14:25:16] ENGINE Handler for console events already off.
+[14/Aug/2018:14:25:16] ENGINE No thread running for None.
+[14/Aug/2018:14:25:16] ENGINE Bus STOPPED
+[14/Aug/2018:14:25:16] ENGINE Bus EXITING
+[14/Aug/2018:14:25:16] ENGINE Bus EXITED
+[14/Aug/2018:14:25:16] ENGINE Console event 0: shutting down bus
+[14/Aug/2018:14:25:16] ENGINE Handler for console events already off.
+[14/Aug/2018:14:25:16] ENGINE Bus STOPPING
+[14/Aug/2018:14:25:16] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) already shut down
+[14/Aug/2018:14:25:16] ENGINE Handler for console events already off.
+[14/Aug/2018:14:25:16] ENGINE No thread running for None.
+[14/Aug/2018:14:25:16] ENGINE Bus STOPPED
+[14/Aug/2018:14:25:16] ENGINE Bus EXITING
+[14/Aug/2018:14:25:16] ENGINE Bus EXITED
+[14/Aug/2018:14:25:16] ENGINE Console event 0: shutting down bus
+[14/Aug/2018:14:25:16] ENGINE Handler for console events already off.
+[14/Aug/2018:14:25:16] ENGINE Bus STOPPING
+[14/Aug/2018:14:25:16] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) already shut down
+[14/Aug/2018:14:25:16] ENGINE Handler for console events already off.
+[14/Aug/2018:14:25:16] ENGINE No thread running for None.
+[14/Aug/2018:14:25:16] ENGINE Bus STOPPED
+[14/Aug/2018:14:25:16] ENGINE Bus EXITING
+[14/Aug/2018:14:25:16] ENGINE Bus EXITED
+[14/Aug/2018:14:25:26] ENGINE Bus STARTING
+[14/Aug/2018:14:25:26] ENGINE Set handler for console events.
+[14/Aug/2018:14:25:26] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:14:25:27] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:14:25:27] ENGINE Bus STARTED
+[14/Aug/2018:14:25:33] ENGINE Bus STOPPING
+[14/Aug/2018:14:25:41] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:14:25:41] ENGINE Removed handler for console events.
+[14/Aug/2018:14:25:41] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:14:25:41] ENGINE Bus STOPPED
+[14/Aug/2018:14:25:41] ENGINE Bus EXITING
+[14/Aug/2018:14:25:41] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:14:25:41] ENGINE Bus EXITED
+[14/Aug/2018:14:28:43] ENGINE Bus STARTING
+[14/Aug/2018:14:28:43] ENGINE Set handler for console events.
+[14/Aug/2018:14:28:43] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:14:28:44] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:14:28:44] ENGINE Bus STARTED
+[14/Aug/2018:14:28:53] ENGINE Bus STOPPING
+[14/Aug/2018:14:28:58] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:14:28:58] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:14:28:58] ENGINE Removed handler for console events.
+[14/Aug/2018:14:28:58] ENGINE Bus STOPPED
+[14/Aug/2018:14:28:58] ENGINE Bus EXITING
+[14/Aug/2018:14:28:58] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:14:28:58] ENGINE Bus EXITED
+[14/Aug/2018:14:29:04] ENGINE Bus STARTING
+[14/Aug/2018:14:29:04] ENGINE Set handler for console events.
+[14/Aug/2018:14:29:04] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:14:29:04] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:14:29:04] ENGINE Bus STARTED
+[14/Aug/2018:14:29:13] ENGINE Bus STOPPING
+[14/Aug/2018:14:29:19] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:14:29:19] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:14:29:19] ENGINE Removed handler for console events.
+[14/Aug/2018:14:29:19] ENGINE Bus STOPPED
+[14/Aug/2018:14:29:19] ENGINE Bus EXITING
+[14/Aug/2018:14:29:19] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:14:29:19] ENGINE Bus EXITED
+[14/Aug/2018:17:05:53] ENGINE Bus STARTING
+[14/Aug/2018:17:05:53] ENGINE Set handler for console events.
+[14/Aug/2018:17:05:53] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:17:05:53] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:17:05:53] ENGINE Bus STARTED
+[14/Aug/2018:17:06:03] ENGINE Bus STOPPING
+[14/Aug/2018:17:06:09] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:17:06:09] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:17:06:09] ENGINE Removed handler for console events.
+[14/Aug/2018:17:06:09] ENGINE Bus STOPPED
+[14/Aug/2018:17:06:09] ENGINE Bus EXITING
+[14/Aug/2018:17:06:09] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:17:06:09] ENGINE Bus EXITED
+[14/Aug/2018:17:06:27] ENGINE Bus STARTING
+[14/Aug/2018:17:06:27] ENGINE Set handler for console events.
+[14/Aug/2018:17:06:27] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:17:06:28] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:17:06:28] ENGINE Bus STARTED
+[14/Aug/2018:17:06:51] ENGINE Restarting because C:\Users\T4\Documents\DjangProjects\PyBrowse\main.py changed.
+[14/Aug/2018:17:06:51] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:17:06:51] ENGINE Bus STOPPING
+[14/Aug/2018:17:06:51] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:17:06:51] ENGINE Removed handler for console events.
+[14/Aug/2018:17:06:51] ENGINE Bus STOPPED
+[14/Aug/2018:17:06:51] ENGINE Bus EXITING
+[14/Aug/2018:17:06:51] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:17:06:51] ENGINE Bus EXITED
+[14/Aug/2018:17:06:51] ENGINE Re-spawning C:\Users\T4\Envs\PyBrowse\Scripts\python.exe main.py
+[14/Aug/2018:17:06:52] ENGINE Bus STARTING
+[14/Aug/2018:17:06:52] ENGINE Set handler for console events.
+[14/Aug/2018:17:06:52] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:17:06:53] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:17:06:53] ENGINE Bus STARTED
+[14/Aug/2018:17:06:56] ENGINE Restarting because C:\Users\T4\Documents\DjangProjects\PyBrowse\main.py changed.
+[14/Aug/2018:17:06:56] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:17:06:56] ENGINE Bus STOPPING
+[14/Aug/2018:17:07:02] ENGINE Bus STOPPING
+[14/Aug/2018:17:07:02] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:17:07:02] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:17:07:02] ENGINE Removed handler for console events.
+[14/Aug/2018:17:07:02] ENGINE Bus STOPPED
+[14/Aug/2018:17:07:02] ENGINE Bus EXITING
+[14/Aug/2018:17:07:02] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:17:07:02] ENGINE Bus EXITED
+[14/Aug/2018:17:07:02] ENGINE Re-spawning C:\Users\T4\Envs\PyBrowse\Scripts\python.exe main.py
+[14/Aug/2018:17:07:03] ENGINE Bus STARTING
+[14/Aug/2018:17:07:08] ENGINE Set handler for console events.
+[14/Aug/2018:17:07:08] ENGINE Bus STOPPING
+[14/Aug/2018:17:07:08] ENGINE HTTP Server None already shut down
+[14/Aug/2018:17:07:08] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:17:07:08] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:17:07:08] ENGINE Removed handler for console events.
+[14/Aug/2018:17:07:08] ENGINE Bus STOPPED
+[14/Aug/2018:17:07:08] ENGINE Bus EXITING
+[14/Aug/2018:17:07:08] ENGINE Bus EXITED
+[14/Aug/2018:17:07:11] ENGINE Bus STARTING
+[14/Aug/2018:17:07:11] ENGINE Set handler for console events.
+[14/Aug/2018:17:07:11] ENGINE Started monitor thread 'Autoreloader'.
+[14/Aug/2018:17:07:11] ENGINE Serving on http://127.0.0.1:9090
+[14/Aug/2018:17:07:11] ENGINE Bus STARTED
+[14/Aug/2018:17:07:21] ENGINE Bus STOPPING
+[14/Aug/2018:17:07:27] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9090)) shut down
+[14/Aug/2018:17:07:27] ENGINE Stopped thread 'Autoreloader'.
+[14/Aug/2018:17:07:27] ENGINE Removed handler for console events.
+[14/Aug/2018:17:07:27] ENGINE Bus STOPPED
+[14/Aug/2018:17:07:27] ENGINE Bus EXITING
+[14/Aug/2018:17:07:27] ENGINE Waiting for child threads to terminate...
+[14/Aug/2018:17:07:27] ENGINE Bus EXITED
