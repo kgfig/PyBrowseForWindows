@@ -5,3 +5,7 @@ __pycache__/*
 devlogs/*
 
 dist/*
+
+
+access.log
+error.log
