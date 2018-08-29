@@ -56,27 +56,32 @@ try:
 except:
     pass
 
-
-
+"""
 class HelloHandler(tornado.web.RequestHandler):
     def get(self):
         self.write('Hello from Tornado')
-
+"""
 class WebThread(threading.Thread):
-
     def __init__(self):
-        asyncio.set_event_loop(asyncio.new_event_loop())
-        threading.Thread.__init__(self)
+        threading.Thread.__init__(self, name='WebThread')
 
     def run(self):
-        ioloop = tornado.ioloop.IOLoop
-        app = tornado.web.Application()
-        http_server = tornado.httpserver.HTTPServer(app)
-        http_server.bind(8889)
-        http_server.start()
+        curdir = os.path.dirname(os.path.realpath(__file__))
+
+        ioloop = tornado.ioloop.IOLoop()
+
+        application = tornado.web.Application()
+        http_server_api = tornado.httpserver.HTTPServer(application)
+        http_server_api.listen(8085)
+
+        print('starting app')
+
         ioloop.start()
 
+t = WebThread()
+t.start()
 
+"""
 class WebServer(tornado.web.Application):
 
     def __init__(self):
@@ -116,7 +121,7 @@ def start_server():
 t = threading.Thread(target=start_server)
 t.daemon = True
 t.start()
-
+"""
 import time
 time.sleep(10)
 
