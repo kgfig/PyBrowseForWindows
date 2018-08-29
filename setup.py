@@ -16,12 +16,18 @@ includes = ['clr']
 
 options = {
     'py2exe': {
-        'includes': includes
+        'includes': includes,
     }
 }
 
 # main.exe works without appending this to the path
 # sys.path.append('C:\\Users\\T4\\Documents\\DjangProjects\\msvcr100.dll')
+
+# Added code from http://www.py2exe.org/index.cgi/IncludingTypelibs
+import win32com.client
+win32com.client.gencache.is_readonly=False
+win32com.client.gencache.GetGeneratePath()
+
 
 # Call setup and set the windows option to convert main.py to an exe with GUI
 setup(
