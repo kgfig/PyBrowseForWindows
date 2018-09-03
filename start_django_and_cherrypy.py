@@ -15,6 +15,8 @@ import threading
 import logging
 import logging.handlers
 
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'myapp.settings')
+
 class DjangoApplication(object):
     def __init__(self):
         self.servers = []

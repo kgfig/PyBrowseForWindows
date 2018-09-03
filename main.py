@@ -1,11 +1,18 @@
 # main.py
-import webview
-import sys
 import os
-import logging
-from logging import handlers
-import cherrypy
+import socket
+import urllib
+try:
+    import urlparse
+except ImportError:
+    import urllib.parse as urlparse
+import cherrypy from django.core.wsgi
+import get_wsgi_application
+import webview
+import subprocess
+import sys
 import threading
+import logging import logging.handlers
 
 # Check if we are running as exe or as a script
 if getattr(sys, 'frozen', None):
@@ -35,8 +42,6 @@ handler.setFormatter(formatter)
 log = logging.getLogger('PyBrowse for Windows')
 log.setLevel(logging.DEBUG)
 log.addHandler(handler)
-
-# py2exe will report an error even if there's none if we log something
 log_msg = 'Are we running as binary? %s' % run_as_binary
 log.debug(log_msg)
 
