@@ -2,14 +2,19 @@
 
 block_cipher = None
 
+binaries = [
+    ('WebBrowserInterop.x64.dll', '.'),
+    ('WebBrowserInterop.x86.dll', '.'),
+]
 
+data = [
+    ('public/static/css/*', 'static/css/'),
+    
+]
 a = Analysis(['main.py'],
              pathex=['C:\\Users\\T4\\Documents\\DjangProjects\\PyBrowse'],
-             binaries=[
-	         ('WebBrowserInterop.x64.dll', '.'),
-                 ('WebBrowserInterop.x86.dll', '.'),
-             ],
-             datas=[],
+             binaries=binaries,
+             datas=data,
              hiddenimports=[],
              hookspath=[],
              runtime_hooks=[],
