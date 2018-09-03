@@ -2,3 +2,13 @@
 
 
 devlogs/*
+
+__pycache__*
+
+build/*
+
+dist/*
+
+*.dll
+
+logs/*
