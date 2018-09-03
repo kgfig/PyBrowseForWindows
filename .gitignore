@@ -3,7 +3,8 @@
 
 devlogs/*
 
-__pycache__*
+__pycache__/*
+*/__pycache__/*
 
 build/*
 
@@ -14,3 +15,10 @@ dist/*
 logs/*
 
 *.log
+
+secret*
+
+*.sqlite
+*.sqlite3
+
+runtime.txt

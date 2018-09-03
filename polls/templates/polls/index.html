@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en_US">
+<meta charset="UTF-8">
+<head>
+    <title>PyBrowse</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="MacDevOps:YVR 2016 test.">
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/polls/css/style.css">
+</head>
+
+<body ondragstart="return false" draggable="false"
+        ondragenter="event.dataTransfer.dropEffect='none'; event.stopPropagation(); event.preventDefault();"
+        ondragover="event.dataTransfer.dropEffect='none';event.stopPropagation(); event.preventDefault();"
+        ondrop="event.dataTransfer.dropEffect='none';event.stopPropagation(); event.preventDefault();">
+
+    <div class="welcome_string">Welcome to CherryPy running Django.</div>
+
+
+    <div id="content">
+        {% if latest_question_list %}
+            <ul>
+            {% for question in latest_question_list %}
+                <li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li>
+            {% endfor %}
+            </ul>
+        {% else %}
+            <p>No polls are available.</p>
+        {% endif %}
+    </div>
+
+</body>
+</html>

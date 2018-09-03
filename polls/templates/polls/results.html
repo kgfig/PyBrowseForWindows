@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en_US">
+<meta charset="UTF-8">
+<head>
+    <title>PyBrowse</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="MacDevOps:YVR 2016 test.">
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/polls/css/style.css">
+</head>
+
+<body ondragstart="return false" draggable="false"
+        ondragenter="event.dataTransfer.dropEffect='none'; event.stopPropagation(); event.preventDefault();"
+        ondragover="event.dataTransfer.dropEffect='none';event.stopPropagation(); event.preventDefault();"
+        ondrop="event.dataTransfer.dropEffect='none';event.stopPropagation(); event.preventDefault();">
+
+    <div class="welcome_string">{{ question.question_text }}</div>
+
+    <div id="content">
+        <ul>
+        {% for choice in question.choice_set.all %}
+            <li>{{ choice.choice_text }} -- {{ choice.votes }} vote{{ choice.votes|pluralize }}</li>
+        {% endfor %}
+        </ul>
+
+        <a href="{% url 'polls:detail' question.id %}" id="again">Vote again?</a>
+    </div>
+
+</body>
+</html>
